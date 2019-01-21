@@ -16,8 +16,8 @@ public class Craps {
     }
 
     boolean play() {
-        int sum = 0;
-        int oldSum = 0;
+        int sum;
+        int oldSum;
 
         // first round
         sum = dice.roll();

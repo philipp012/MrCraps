@@ -9,7 +9,7 @@ public class CrapsTest {
         private Craps testee;
 
     @Test
-    public void testFirstRoundVicroy() {
+    public void testFirstRoundVicroyReturn7() {
         Dice dice = mock(Dice.class);
         when(dice.roll()).thenReturn(3).thenReturn(4);
         testee = new Craps(dice);
@@ -18,11 +18,20 @@ public class CrapsTest {
     }
 
     @Test
-    public void testFirstRoundLoose() {
+    public void testFirstRoundLooseReturn2() {
         Dice dice = mock(Dice.class);
         when(dice.roll()).thenReturn(1).thenReturn(1);
         testee = new Craps(dice);
 
         assertFalse(testee.play());
+    }
+
+    @Test
+    public void testSecondRoundVicroyReturn10() {
+        Dice dice = mock(Dice.class);
+        when(dice.roll()).thenReturn(5).thenReturn(5);
+        testee = new Craps(dice);
+
+        assertTrue(testee.play());
     }
 }
