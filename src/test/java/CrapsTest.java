@@ -6,7 +6,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 public class CrapsTest {
-        private Craps testee;
+    private Craps testee;
 
     @Test
     public void testFirstRoundVicroyReturn7() {
@@ -33,5 +33,15 @@ public class CrapsTest {
         testee = new Craps(dice);
 
         assertTrue(testee.play());
+    }
+
+    @Test
+    public void testSecondRoundLooseReturn7() {
+        Dice dice = mock(Dice.class);
+        when(dice.roll()).thenReturn(1).thenReturn(4);
+        when(dice.roll()).thenReturn(3).thenReturn(4);
+        testee = new Craps(dice);
+
+        assertFalse(testee.play());
     }
 }
