@@ -1,7 +1,7 @@
 public class Craps {
     private Dice dice;
 
-    private Craps(Dice dice) {
+    Craps(Dice dice) {
         this.dice = dice;
     }
 
