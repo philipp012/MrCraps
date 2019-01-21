@@ -15,7 +15,7 @@ public class Craps {
         }
     }
 
-    private boolean play() {
+    boolean play() {
         int sum = 0;
         int oldSum = 0;
 
