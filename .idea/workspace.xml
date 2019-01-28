@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d7b0fa1b-7d64-45d0-ac0f-22b704badc98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Craps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Craps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CrapsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CrapsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Craps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Craps.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -24,24 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Craps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#77#78#0" expanded="true" />
-                <element signature="e#109#110#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="571">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CrapsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="67">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,14 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="161">
               <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              <folding>
-                <element signature="e#70#71#0" expanded="true" />
-                <element signature="e#107#108#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#180#181#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +74,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Dice.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Craps.java" />
         <option value="$PROJECT_DIR$/src/test/java/CrapsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Craps.java" />
       </list>
     </option>
   </component>
@@ -119,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,13 +153,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548057780634" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548661209312" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -195,14 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CrapsTest.testSecondRoundLooseReturn7">
-    <configuration name="Craps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Craps" />
-      <module name="MrCraps" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CrapsTest.testThirdRoundLooseReturn7">
     <configuration name="CrapsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MrCraps" />
       <option name="PACKAGE_NAME" value="" />
@@ -222,16 +207,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrapsTest.testFirstRoundVicroy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MrCraps" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CrapsTest" />
-      <option name="METHOD_NAME" value="testFirstRoundVicroy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CrapsTest.testSecondRoundLooseReturn7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MrCraps" />
       <option name="PACKAGE_NAME" value="" />
@@ -242,13 +217,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CrapsTest.testThirdRoundLooseReturn7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MrCraps" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrapsTest" />
+      <option name="METHOD_NAME" value="testThirdRoundLooseReturn7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrapsTest.testThirdRoundVicroyReturn4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MrCraps" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrapsTest" />
+      <option name="METHOD_NAME" value="testThirdRoundVicroyReturn4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CrapsTest.testThirdRoundLooseReturn7" />
+        <item itemvalue="JUnit.CrapsTest.testThirdRoundVicroyReturn4" />
         <item itemvalue="JUnit.CrapsTest.testSecondRoundLooseReturn7" />
         <item itemvalue="JUnit.CrapsTest" />
         <item itemvalue="JUnit.CrapsTest.testFirstRoundLoose" />
-        <item itemvalue="JUnit.CrapsTest.testFirstRoundVicroy" />
-        <item itemvalue="Application.Craps" />
       </list>
     </recent_temporary>
   </component>
@@ -263,28 +258,51 @@
       <option name="presentableId" value="Default" />
       <updated>1548054941282</updated>
       <workItem from="1548054944841" duration="1658000" />
+      <workItem from="1548066419980" duration="658000" />
+      <workItem from="1548657562145" duration="2979000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CrapsTest_testFirstRoundVicroy - 2019.01.21 at 08h 37m 38s.xml">
-      <configuration name="CrapsTest.testFirstRoundVicroy" configurationId="JUnit" />
+    <history-entry file="CrapsTest_testThirdRoundVicroyReturn4 - 2019.01.28 at 08h 21m 10s.xml">
+      <configuration name="CrapsTest.testThirdRoundVicroyReturn4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrapsTest - 2019.01.21 at 08h 50m 58s.xml">
-      <configuration name="CrapsTest" configurationId="JUnit" />
+    <history-entry file="CrapsTest_testThirdRoundVicroyReturn4 - 2019.01.28 at 08h 21m 43s.xml">
+      <configuration name="CrapsTest.testThirdRoundVicroyReturn4" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrapsTest - 2019.01.21 at 08h 55m 07s.xml">
-      <configuration name="CrapsTest" configurationId="JUnit" />
+    <history-entry file="CrapsTest_testThirdRoundVicroyReturn4 - 2019.01.28 at 08h 22m 34s.xml">
+      <configuration name="CrapsTest.testThirdRoundVicroyReturn4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrapsTest_testThirdRoundVicroyReturn4 - 2019.01.28 at 08h 24m 18s.xml">
+      <configuration name="CrapsTest.testThirdRoundVicroyReturn4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrapsTest_testThirdRoundVicroyReturn4 - 2019.01.28 at 08h 27m 08s.xml">
+      <configuration name="CrapsTest.testThirdRoundVicroyReturn4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrapsTest_testThirdRoundVicroyReturn4 - 2019.01.28 at 08h 29m 00s.xml">
+      <configuration name="CrapsTest.testThirdRoundVicroyReturn4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrapsTest_testThirdRoundVicroyReturn4 - 2019.01.28 at 08h 34m 39s.xml">
+      <configuration name="CrapsTest.testThirdRoundVicroyReturn4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrapsTest_testThirdRoundVicroyReturn4 - 2019.01.28 at 08h 35m 37s.xml">
+      <configuration name="CrapsTest.testThirdRoundVicroyReturn4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrapsTest_testThirdRoundVicroyReturn4 - 2019.01.28 at 08h 36m 34s.xml">
+      <configuration name="CrapsTest.testThirdRoundVicroyReturn4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrapsTest_testThirdRoundVicroyReturn4 - 2019.01.28 at 08h 40m 09s.xml">
+      <configuration name="CrapsTest.testThirdRoundVicroyReturn4" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2613000" />
+    <option name="totallyTimeSpent" value="7943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12540022" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26148796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -293,8 +311,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32794458" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57292885" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.07150965" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -303,7 +321,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.45381063" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32794458" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32672113" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -357,37 +375,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Craps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#77#78#0" expanded="true" />
-            <element signature="e#109#110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="161">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#70#71#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CrapsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="67">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Craps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>

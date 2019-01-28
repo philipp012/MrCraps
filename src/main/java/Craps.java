@@ -35,17 +35,17 @@ public class Craps {
                 break;
         }
 
-        // second round
-        oldSum = sum;
-        sum = dice.roll();
-        sum = sum + dice.roll();
+        // next round
+        while (true) {
+            oldSum = sum;
+            sum = dice.roll();
+            sum += dice.roll();
 
-        if (sum == oldSum) {
-            return true;
-        } else if (sum == 7) {
-            return false;
+            if (sum == oldSum) {
+                return true;
+            } else if (sum == 7) {
+                return false;
+            }
         }
-
-        return false;
     }
 }
