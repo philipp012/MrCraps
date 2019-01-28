@@ -160,7 +160,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548661209312" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548661369683" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -187,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CrapsTest.testThirdRoundLooseReturn7">
+  <component name="RunManager" selected="JUnit.CrapsTest">
     <configuration name="CrapsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MrCraps" />
       <option name="PACKAGE_NAME" value="" />
@@ -239,10 +239,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CrapsTest" />
         <item itemvalue="JUnit.CrapsTest.testThirdRoundLooseReturn7" />
         <item itemvalue="JUnit.CrapsTest.testThirdRoundVicroyReturn4" />
         <item itemvalue="JUnit.CrapsTest.testSecondRoundLooseReturn7" />
-        <item itemvalue="JUnit.CrapsTest" />
         <item itemvalue="JUnit.CrapsTest.testFirstRoundLoose" />
       </list>
     </recent_temporary>

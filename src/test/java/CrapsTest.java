@@ -60,5 +60,25 @@ public class CrapsTest {
         when(dice.roll()).thenReturn(2, 2, 2, 3, 4, 3);
         testee = new Craps(dice);
 
-        assertFalse(testee.play());}
+        assertFalse(testee.play());
+    }
+
+    @Test
+    public void testFourthRoundVicroyReturn4() {
+        Dice dice = mock(Dice.class);
+        when(dice.roll()).thenReturn(2, 2, 2, 3, 2, 2, 2,3);
+        testee = new Craps(dice);
+
+        assertTrue(testee.play());
+
+    }
+
+    @Test
+    public void testFourthRoundLooseReturn7() {
+        Dice dice = mock(Dice.class);
+        when(dice.roll()).thenReturn(2, 2, 2, 3, 4, 2, 4, 3);
+        testee = new Craps(dice);
+
+        assertFalse(testee.play());
+    }
 }
